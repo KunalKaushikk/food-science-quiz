@@ -81,22 +81,29 @@ const questions = [
   },
   {
     id: 6,
-    question: `Which of the following statements are true?
+    question: `Which of the following statement is true in relation to the effect of solutes on structure of water?
 
-1. Microwave heating is a volumetric heating method.
-
-2. Microwave heating depends on the dielectric properties of food.
-
-3. Microwave heating is independent of thermal properties of food.
-
-4. Microwave heating is uniform throughout the food material.`,
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column I</th>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column II</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">1. Solutes capable of forming hydrogen bonds, such as urea, may be expected to disrupt the normal structure of water.</td>
+    <td style="padding: 8px;">2. Inert solutes such as hydrocarbons and the non-polar groups of compounds like fatty acids, amino acids and proteins have a structure forming action when introduced with water.</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">3. In proteins all the total amino acids have non-polar side chains.</td>
+    <td style="padding: 8px;">4. The total number of hydrogen bonds per mole of solution will not be substantially altered as the disrupted water – water hydrogen bonds are replaced by water-solute hydrogen bonds.</td>
+  </tr>
+</table>`,
     options: [
-      "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "a. 1 and 3",
+      "b. 2 and 4",
+      "c. 1 and 2",
+      "d. 3 and 4"
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     id: 7,
@@ -111,6 +118,40 @@ const questions = [
   },
   {
     id: 8,
+    question: `Match the type of viscosity given in Column I with its description in Column II.
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column I</th>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column II</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">I. Peak viscosity</td>
+    <td style="padding: 8px;">A. The apparent viscosity of the paste after programmed cooling to 50°C</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">II. Paste stability</td>
+    <td style="padding: 8px;">B. The apparent viscosity after stirring at 50°C periods of up to 1 h.</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">III. Setback viscosity</td>
+    <td style="padding: 8px;">C. Highest apparent viscosity obtained during pasting.</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">IV. Stability of the cooked paste</td>
+    <td style="padding: 8px;">D. Resistance to breakdown, indicated by the apparent viscosity after cooking</td>
+  </tr>
+</table>`,
+    options: [
+      "a. I-B, II-A, III-D, IV-C",
+      "b. I-D, II-B, III-C, IV-A",
+      "c. I-C, II-D, III-A, IV-B",
+      "d. I-B, II-C, III-D, IV-A"
+    ],
+    correctAnswer: 2
+  },
+  {
+    id: 9,
     question: `Match the following:
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -144,8 +185,8 @@ const questions = [
     correctAnswer: 1
   },
   {
-    id: 9,
-    question: `Match the following:
+    id: 10,
+    question: `Match the naturally occurring antinutritional substances in Column I with the food in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
   <tr>
@@ -153,32 +194,32 @@ const questions = [
     <th style="width: 50%; text-align: left; padding: 8px;">Column II</th>
   </tr>
   <tr>
-    <td style="padding: 8px;">A. Microwave heating</td>
-    <td style="padding: 8px;">i. 915 MHz</td>
+    <td style="padding: 8px;">I. Hemagglutinins</td>
+    <td style="padding: 8px;">A. Egg</td>
   </tr>
   <tr>
-    <td style="padding: 8px;">B. Radio frequency heating</td>
-    <td style="padding: 8px;">ii. 2450 MHz</td>
+    <td style="padding: 8px;">II. Thiaminase</td>
+    <td style="padding: 8px;">B. Cereal</td>
   </tr>
   <tr>
-    <td style="padding: 8px;">C. Infrared heating</td>
-    <td style="padding: 8px;">iii. 27.12 MHz</td>
+    <td style="padding: 8px;">III. Avidin</td>
+    <td style="padding: 8px;">C. Fish</td>
   </tr>
   <tr>
-    <td style="padding: 8px;">D. Ultraviolet radiation</td>
-    <td style="padding: 8px;">iv. 0.75-1000 μm</td>
+    <td style="padding: 8px;">IV. Phytates</td>
+    <td style="padding: 8px;">D. Legume</td>
   </tr>
 </table>`,
     options: [
-      "a. A-i, B-iii, C-iv, D-ii",
-      "b. A-ii, B-iii, C-iv, D-i",
-      "c. A-iii, B-iv, C-i, D-ii",
-      "d. A-iv, B-i, C-ii, D-iii"
+      "a. I-D, II-C, III-A, IV-B",
+      "b. I-A, II-D, III-C, IV-B",
+      "c. I-C, II-B, III-D, IV-A",
+      "d. I-B, II-A, III-D, IV-C"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
-    id: 10,
+    id: 11,
     question: "Which of the following hazards is not associated with environmental contaminants?",
     options: [
       "a. Persistent organic pollutants",
@@ -189,7 +230,7 @@ const questions = [
     correctAnswer: 3
   },
   {
-    id: 11,
+    id: 12,
     question: "How long do perishable foods generally keep at room temperature (20-25°C)?",
     options: [
       "a. 1-2 days",
@@ -200,7 +241,7 @@ const questions = [
     correctAnswer: 1
   },
   {
-    id: 12,
+    id: 13,
     question: `Match the type of bound water in Column I with its characteristic feature in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -234,26 +275,26 @@ const questions = [
     correctAnswer: 3
   },
   {
-    id: 13,
-    question: `Which of the following statements are true?
+    id: 14,
+    question: `Which of the following statements correctly state the mixture model theory of water structure?
 
-1. Microwave heating is used for tempering of frozen foods.
+1. Intermolecular hydrogen bonds are distributed uniformly throughout water, so that each water molecule has essentially the same environment.
 
-2. Microwave heating is used for precooking of bacon.
+2. Intermolecular hydrogen bonds are not distributed uniformly throughout water, so that each water molecule has essentially the same environment.
 
-3. Microwave heating is used for drying of potato chips.
+3. The intermolecular hydrogen bonds are concentrated, at any given moment, in localized multi-molecular clumps or clusters of water molecules.
 
-4. Microwave heating is used for blanching of vegetables.`,
+4. No intermolecular hydrogen bonds are concentrated, at any given moment, in localized multi-molecular clumps or clusters of water molecules.`,
     options: [
       "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "b. 3 and 4",
+      "c. Only 3",
+      "d. Only 2"
     ],
-    correctAnswer: 0
+    correctAnswer: 2
   },
   {
-    id: 14,
+    id: 15,
     question: `__________ are a group of homologous oligosaccharides, obtained from the breakdown of starch by the action of cyclodextrin glucanotransferase produced by Bacillus macerans.
 
 1. Schardinger dextrins
@@ -268,7 +309,7 @@ const questions = [
     correctAnswer: 3
   },
   {
-    id: 15,
+    id: 16,
     question: "Which of the following option is incorrect about the amylopectin?",
     options: [
       "a. Molecular weight is 1 to several million",
@@ -279,7 +320,7 @@ const questions = [
     correctAnswer: 2
   },
   {
-    id: 16,
+    id: 17,
     question: "Identify I, II and III in the figure showing the correct phase changes occurring in a starch-water mixture during heating, cooling, and storage.",
     options: [
       "a. I: Amylose leaching and formation of ordered or crystalline amylose molecules, II: Gelatinization associated with swelling, III: Formation of ordered or crystalline amylopectin molecules",
@@ -290,7 +331,7 @@ const questions = [
     correctAnswer: 2
   },
   {
-    id: 17,
+    id: 18,
     question: "The activation energy of a first order reaction is 50400 J/mol at 30°C. Calculate the temperature (°C) at which the rate constant doubles. The value of gas constant may be taken as 8.314 J/mol K.",
     options: [
       "a. 40.0-41.0",
@@ -301,7 +342,7 @@ const questions = [
     correctAnswer: 0
   },
   {
-    id: 18,
+    id: 19,
     question: "The group of bacteria that grow in high concentrations of sugar is known as _____.",
     options: [
       "a. Osmophilic",
@@ -312,7 +353,7 @@ const questions = [
     correctAnswer: 0
   },
   {
-    id: 19,
+    id: 20,
     question: "The intercept and slope of the BET line are 14.7 and 0.93, respectively. Calculate the value of BET constant (C) and monolayer moisture content (m₁).",
     options: [
       "a. 1.01-1.05, 0.76-0.79",
@@ -323,7 +364,7 @@ const questions = [
     correctAnswer: 2
   },
   {
-    id: 20,
+    id: 21,
     question: `Match the biochemical reactions in Column I with their corresponding consequences/definitions given in Column II.
 
 Column I:
@@ -346,7 +387,7 @@ D. Sugars react with protein`,
     correctAnswer: 1
   },
   {
-    id: 21,
+    id: 22,
     question: `Which of the following caramel color is produced by direct pyrolysis of sucrose to give a burnt sucrose color?
 
 1. Acid fast caramel
@@ -361,7 +402,7 @@ D. Sugars react with protein`,
     correctAnswer: 3
   },
   {
-    id: 22,
+    id: 23,
     question: `Which of the following statements is/are correct with respect to browning reactions?
 
 1. Maillard reaction can be inhibited by keeping the pH below the isoelectric pH of amino acids.
@@ -376,7 +417,7 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 23,
+    id: 24,
     question: "Which of the following is NOT a possible effect of protein denaturation?",
     options: [
       "a. Decrease in solubility",
@@ -387,18 +428,18 @@ D. Sugars react with protein`,
     correctAnswer: 2
   },
   {
-    id: 24,
-    question: "Which of the following options accurately describes the quaternary structure of a protein?",
+    id: 25,
+    question: "Identify the zones (i, ii, iii, iv) in the following schematic of a single screw extruder.",
     options: [
-      "a. Sequence of amino acids in a linear arrangement",
-      "b. Consistent structural motifs like α-helices and β-sheets",
-      "c. Comprehensive three-dimensional interplay among various subunits",
-      "d. Three-dimensional configuration of atoms within the polypeptide chain"
+      "a. (i) Feeding zone (ii) Exudation zone (iii) Compression zone (iv) Transport zone",
+      "b. (i) Feeding zone (ii) Compression zone (iii) Exudation zone (iv) Transport zone",
+      "c. (i) Feeding zone (ii) Transport zone (iii) Compression zone (iv) Exudation zone",
+      "d. (i) Transport zone (ii) Feeding zone (iii) Compression zone (iv) Exudation zone"
     ],
     correctAnswer: 2
   },
   {
-    id: 25,
+    id: 26,
     question: `Identify the correct statements with respect to the basic function of protein in a foam.
 
 1. Proteins in foam help to decrease interfacial tension.
@@ -413,8 +454,10 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 26,
-    question: "Which of the following options is correct about the passive pH homeostasis?",
+    id: 27,
+    question: `Five hundred kilogram of soybean containing 18 % oil, 35 % protein, 27.1 % carbohydrate, 9.4 % fibre and ash, and 10.5 % moisture are: (a) crushed and pressed, reducing the oil content to 6 %; (b) then extracted with hexane to get a meal with 0.5 % oil. Set up a materials balance for the soybean constituents, assuming no loss of protein or water with the oil.
+
+Which of the following options is correct about the passive pH homeostasis?`,
     options: [
       "a. Microorganisms allow external protons from entering the cell or decrease the buffering capacity of their cytoplasm by synthesis of glutamate and / or citrate",
       "b. Microorganisms either prevent external protons from entering the cell or increase the buffering capacity of their cytoplasm by synthesis of glutamate and / or citrate",
@@ -424,7 +467,7 @@ D. Sugars react with protein`,
     correctAnswer: 1
   },
   {
-    id: 27,
+    id: 28,
     question: `Match the property in Column I with its functional criteria in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -458,7 +501,7 @@ D. Sugars react with protein`,
     correctAnswer: 1
   },
   {
-    id: 28,
+    id: 29,
     question: "Which among the following does not constitute an underlying factor influencing the microbial ecology in foods?",
     options: [
       "a. Specific growth rate",
@@ -469,7 +512,7 @@ D. Sugars react with protein`,
     correctAnswer: 3
   },
   {
-    id: 29,
+    id: 30,
     question: "_____ method is used to determine the probability of survival of the target organism during commercial sterilization.",
     options: [
       "a. Lethal rate summation",
@@ -480,7 +523,7 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 30,
+    id: 31,
     question: "Which of the following is not a type of toxin producing microbe?",
     options: [
       "a. Aspergillus parasiticus",
@@ -491,7 +534,7 @@ D. Sugars react with protein`,
     correctAnswer: 2
   },
   {
-    id: 31,
+    id: 32,
     question: "Which of the following is not a consequence of the denaturation of protein?",
     options: [
       "a. Digestibility improvement",
@@ -502,7 +545,7 @@ D. Sugars react with protein`,
     correctAnswer: 3
   },
   {
-    id: 32,
+    id: 33,
     question: "Microorganisms appear to be thermally stabilised at a₍w₎ values ranges of _____",
     options: [
       "a. 0.3-0.5",
@@ -513,7 +556,7 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 33,
+    id: 34,
     question: "Calculate the generation time (g) in minutes, if 2000 E. coli cells growing logarithmically for 5 hours produced 2 × 10⁶ cells?",
     options: [
       "a. 30-31",
@@ -524,7 +567,7 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 34,
+    id: 35,
     question: `Match the growth phase of microorganism in Column I with its description in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -558,38 +601,23 @@ D. Sugars react with protein`,
     correctAnswer: 0
   },
   {
-    id: 35,
-    question: `Which of the following statements are true?
-
-The rate of heat transfer by radiation is proportional to the fourth power of the absolute temperature difference between the radiating body and the receiving body.
-
-The rate of heat transfer by radiation is proportional to the surface area of the radiating body.
-
-The rate of heat transfer by radiation is proportional to the emissivity of the radiating body.
-
-The rate of heat transfer by radiation is independent of the distance between the radiating body and the receiving body.`,
-    options: [
-      "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
     id: 36,
-    question: `Study the following diagram and answer the question below.
+    question: `Which of the following statements is/are not correct with respect to food preservation?
 
-<img src="/images/36.jpg" alt="Food processing diagram" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />
+Statement 1: Curing & salting methods kill the microorganisms by reducing the aw and raising the osmolality.
 
-Which of the following correctly describes the process shown?`,
+Statement 2: Sorbic acid, peracetic acid, benzoic acid, and propionic acid are the food preservatives allowed by FSSAI.
+
+Statement 3: For pathogenic microorganism, controlling pH is mostly used.
+
+Statement 4: In passive pH homeostatis, microorganisms either prevent external protons from entering the cell or increase the buffering capacity of their cytoplasm by synthesis of glutamate and / or citrate.`,
     options: [
-      "a. Continuous flow sterilization",
-      "b. Batch sterilization",
-      "c. HTST pasteurization",
-      "d. UHT processing"
+      "a. 1 & 3",
+      "b. 1, 2 & 3",
+      "c. 2, 3 & 4",
+      "d. 1 & 4"
     ],
-    correctAnswer: 2
+    correctAnswer: 1
   },
   {
     id: 37,
@@ -721,33 +749,31 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 44,
-    question: `Which of the following statements are true?
+    question: `Which of the following statements is/are true with respect to the high pressure processing (HPP) of foods?
 
-1. The rate of heat transfer by radiation is proportional to the fourth power of the absolute temperature difference.
+1. HP-treated sausages are considered less cohesive and more firm than heat-treated sausages.
 
-2. The rate of heat transfer by radiation is proportional to the surface area.
+2. Texture of gas-containing products may be changed during HPP, mainly, due to the gas displacement and liquid infiltration.
 
-3. The rate of heat transfer by radiation is proportional to the emissivity.
+3. The pressure at which starch gelatinizes has no relation with the source of starch.
 
-4. The rate of heat transfer by radiation is independent of the distance.`,
+4. Pressure-induced denaturation is sometimes reversible, but renaturation after pressure release may take a long time.`,
     options: [
-      "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "a. 1, 2",
+      "b. 3, 4",
+      "c. 1, 3",
+      "d. 2, 4"
     ],
-    correctAnswer: 0
+    correctAnswer: 3
   },
   {
     id: 45,
-    question: `Examine the following diagram and identify the process it represents.
-
-<img src="/images/45.jpg" alt="Food processing method" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+    question: `A graduate student wants to design a membrane filtration system for litchi juice processing and chooses a plate and frame type module for the microfiltration system. The module can reduce the TSS content of feed by half of its initial, i.e. TSS of permeate = 0.5 x TSS of feed. The student maintained the feed flow rate of litchi juice at 10 kg/min with a TSS of 10% using a centrifugal pump. During the experimentation, he observed that the concentrated juice had a TSS 13%. Later, he collected the permeate juice in a tank and thought to connect it with the feed flow using a suitable centrifugal pump to obtain 3% TSS content in the permeate. Which of the following options state correct mass flow rate (kg/min) of concentrate, permeate and recycled permeate litchi juice? Take numbers up to 2 decimals during calculation.`,
     options: [
-      "a. Vacuum packaging",
-      "b. Modified atmosphere packaging",
-      "c. Aseptic packaging",
-      "d. Active packaging"
+      "a. 6.15, 3.85 and 35",
+      "b. 6.25, 3.75 and 40",
+      "c. 6.15, 3.85 and 40",
+      "d. 6.25, 3.75 and 35"
     ],
     correctAnswer: 1
   },
@@ -813,22 +839,20 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 49,
-    question: `Which of the following statements are true about food preservation?
+    question: `Which of the following statement is true with respect to the high pressure treated food products?
 
-1. Curing & salting methods kill microorganisms by reducing water activity.
+1. HP-treated sausages are less cohesive and more firm than heat-treated sausages.
 
-2. Sorbic acid and benzoic acid are approved preservatives.
+2. HP treatment can preserve delicate sensory attributes of avocado and assure a reasonable safe and stable shelf-life.
 
-3. pH control is effective against pathogens.
-
-4. Passive pH homeostasis involves preventing proton entry into cells.`,
+3. HP treatment of meat and fish may result in increased oxidation due to the free metal ions.`,
     options: [
-      "a. 1 and 3",
-      "b. 1, 2 and 3",
-      "c. 2, 3 and 4",
-      "d. 1 and 4"
+      "a. 1 and 2",
+      "b. 2 and 3",
+      "c. 1 and 3",
+      "d. 1, 2 and 3"
     ],
-    correctAnswer: 1
+    correctAnswer: 3
   },
   {
     id: 50,
@@ -945,30 +969,23 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 58,
-    question: `Calculate the permeate flux (in m³/m².s) in a gel layer controlled ultrafiltration of a protein solution of concentration 0.01 kg/m³ from the under provided data.
-
-1. Viscosity of permeate = 1.5 cP
-2. Diameter of protein molecule = 20 nm
-3. Operating pressure = 10 kPa
-4. Porosity of gel = 0.5
-5. Gel layer thickness = 15 μm
-6. Membrane resistance = 8.6 × 10¹¹ m⁻¹`,
+    question: "Which of the following statements is correct regarding the effect of temperature on microbial growth?",
     options: [
-      "a. 4.6-4.7 × 10⁻⁷",
-      "b. 4.6-4.7 × 10⁻⁹",
-      "c. 10.5-10.6 × 10⁻⁷",
-      "d. 10.5-10.6 × 10⁻⁹"
+      "a. Psychrophiles grow best at temperatures below 20°C",
+      "b. Mesophiles grow best at temperatures between 20-45°C",
+      "c. Thermophiles grow best at temperatures above 45°C",
+      "d. All of the above"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 59,
-    question: "Which of the under mentioned packaging materials is/are suitable for high pressure treatment?",
+    question: "Which of the following is not a hurdle for providing microbial stability to the high moisture food product?",
     options: [
-      "a. Rigid copolymer films",
-      "b. Semi rigid trays",
-      "c. Metal cans",
-      "d. Paper bags"
+      "a. Blanching",
+      "b. Water activity increment",
+      "c. Addition of chemical preservatives",
+      "d. Addition of sulfite as an anti-browning agent"
     ],
     correctAnswer: 1
   },
@@ -1022,16 +1039,16 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 64,
-    question: `Study the following diagram and identify the process shown.
+    question: `Select the correct option that identifies the parts (1, 2, 3, 4) of the microwave heating system shown in the Figure below.
 
-<img src="/images/64.jpg" alt="Food processing equipment" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+<img src="/images/64.jpg" alt="Microwave heating system" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Spray drying",
-      "b. Freeze drying",
-      "c. Drum drying",
-      "d. Fluidized bed drying"
+      "a. (1) Mode stirrer, (2) Magnetron tube, (3) Wave guide, (4) Oven cavity",
+      "b. (1) Magnetron tube, (2) Wave guide, (3) Mode stirrer, (4) Oven cavity",
+      "c. (1) Mode stirrer, (2) Oven cavity, (3) Magnetron tube, (4) Wave guide",
+      "d. (1) Mode stirrer, (2) Wave guide, (3) Magnetron tube, (4) Oven cavity"
     ],
-    correctAnswer: 0
+    correctAnswer: 3
   },
   {
     id: 65,
@@ -1135,41 +1152,39 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 72,
-    question: `Which of the following statements are true about food preservation?
+    question: `Identify the correct statement(s) with respect to the supercritical fluids (SCFs).
 
-1. Curing & salting methods kill microorganisms by reducing water activity.
+1. A single homogeneous fluid formed at temperatures and pressures above the critical point is called an SCF.
 
-2. Sorbic acid and benzoic acid are approved preservatives.
+2. SCFs are light like gas and lack penetration power.
 
-3. pH control is effective against pathogens.
-
-4. Passive pH homeostasis involves preventing proton entry into cells.`,
-    options: [
-      "a. 1 and 3",
-      "b. 1, 2 and 3",
-      "c. 2, 3 and 4",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 73,
-    question: `Which of the following statements are true about food additives?
-
-1. They improve nutritional value of foods.
-
-2. They enhance shelf life of products.
-
-3. They may cause allergic reactions.
-
-4. They are all synthetic compounds.`,
+3. SCFs are produced by heating a gas above its critical temperature or compressing a liquid above its critical pressure.`,
     options: [
       "a. 1 and 2",
       "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "c. 1 and 3",
+      "d. 3 and 4"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
+  },
+  {
+    id: 73,
+    question: `The supercritical fluid extraction method can be used for which of the following processes?
+
+1. Decaffeination of coffee and tea
+
+2. Deodorization of oils and fats
+
+3. Decholesterolization of egg yolk and dairy crème
+
+4. Denicotinization of tobacco`,
+    options: [
+      "a. 1, 2, and 3",
+      "b. 1, 3, and 4",
+      "c. 2, 3, and 4",
+      "d. 1, 2, 3 and 4"
+    ],
+    correctAnswer: 3
   },
   {
     id: 74,
@@ -1328,14 +1343,14 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 87,
-    question: `Analyze the following diagram and identify the process it illustrates.
+    question: `Which among the various options given in figure below show the correct stage of the water removal from food during its freeze drying?
 
-<img src="/images/87.jpg" alt="Food preservation method" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+<img src="/images/87.jpg" alt="Freeze drying stages" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Thermal processing",
-      "b. Non-thermal processing",
-      "c. Chemical preservation",
-      "d. Physical preservation"
+      "a. Desorption (A→B)",
+      "b. Sublimation (C→D)",
+      "c. Freezing (D→E)",
+      "d. Vacuum (E→F)"
     ],
     correctAnswer: 1
   },
@@ -1416,22 +1431,22 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 92,
-    question: `Which statements about food quality control are accurate?
+    question: `Identify the correct statements with respect to the co-rotating and counter-rotating twin-screw extruders (TSE).
 
-1. Sensory evaluation is always objective.
+1. Co-rotating TSE creates high pressure at the nip exit and low pressure at the apex.
 
-2. Chemical analysis can measure nutritional content.
+2. In counter-rotating TSE, material flow results in low pressure at the nip and high pressure at the nip exit.
 
-3. Microbiological testing ensures food safety.
+3. In a co-rotating TSE, both screws rotate in the same direction and generate high and low-pressure regions near the apex.
 
-4. Physical tests measure only texture.`,
+4. In a counter-rotating TSE, screws rotate in the opposite direction, creating high pressure at the nip where the material is forced between the screws.`,
     options: [
-      "a. 1 and 3",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "a. 1 and 2",
+      "b. 1 and 3",
+      "c. 2 and 4",
+      "d. 3 and 4"
     ],
-    correctAnswer: 1
+    correctAnswer: 3
   },
   {
     id: 93,
@@ -1468,14 +1483,12 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 96,
-    question: `Study the following diagram and identify the equipment shown.
-
-<img src="/images/96.jpg" alt="Food processing equipment" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+    question: "Which of the following options correctly states the type of screw and barrel configuration needed to achieve compression??",
     options: [
-      "a. Plate heat exchanger",
-      "b. Shell and tube heat exchanger",
-      "c. Scraped surface heat exchanger",
-      "d. Tubular heat exchanger"
+      "a. 1 and 2",
+      "b. 2 and 3",
+      "c. 1, 2 and 3",
+      "d. Only 1"
     ],
     correctAnswer: 2
   },
@@ -1500,16 +1513,16 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 98,
-    question: `Examine the following diagram and identify the process it represents.
+    question: `In the below given figure, what is the order of the size of the die?
 
-<img src="/images/98.jpg" alt="Food processing system" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+<img src="/images/98.jpg" alt="Die sizes comparison" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Batch processing",
-      "b. Continuous processing",
-      "c. Semi-continuous processing",
-      "d. Intermittent processing"
+      "a. die 1 > die 2 > die 3 > die 4",
+      "b. die 1 < die 2 < die 3 < die 4",
+      "c. die 4 = die 3 > die 2 = die 1",
+      "d. die 4 < die 3 = die 2 < die 1"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
   },
   {
     id: 99,
@@ -1632,22 +1645,20 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 106,
-    question: `Which statements about food irradiation are correct?
+    question: `Which of the following statement is correct with respect to the hurdle technology concept in food processing?
 
-1. It kills all microorganisms at any dose.
+1. Hurdle technology can avoid the severity of one factor for preservation.
 
-2. It can extend shelf life of fresh produce.
+2. Hurdle at higher concentrations prevents undesired side effects, lowers production cost and saves energy.
 
-3. It makes food radioactive.
-
-4. It requires specific labeling.`,
+3. Combination factors in hurdle technology act synergistically`,
     options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 3 and 4",
-      "d. 1 and 2"
+      "a. 1 and 2",
+      "b. 2 and 3",
+      "c. 1 and 3",
+      "d. 1, 2 and 3"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 107,
@@ -1733,43 +1744,36 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 112,
-    question: `Study the following diagram and identify the process shown.
+    question: `People in India are known for implementing traditional home remedies. One such example is the extensive use of turmeric (Curcuma longa) powder in cuisines & also for application on fresh cuts/wounds. Curcuminoids is a family of compounds found in Curcuma longa which have antimicrobial properties. Curcumin, which accounts for approximately 3% by weight of turmeric powder is an important member of curcuminoids family. Curcumin, along with other members like demethoxycurcumin & bismethoxycurcumin have been shown to possess antimicrobial activity.
 
-<img src="/images/112.jpg" alt="Food processing system" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
-    options: [
-      "a. Batch mixing",
-      "b. Continuous mixing",
-      "c. Semi-continuous mixing",
-      "d. Intermittent mixing"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 113,
-    question: `Analyze the following diagram and identify the equipment illustrated.
+A scientist conducted several experiments to check the antimicrobial potential of turmeric on different microorganisms by using the MIC (minimum inhibitory concentration) assay. Taking into consideration that the scientist assumed that only curcumin in the turmeric powder had antimicrobial effect, answer the following questions based on the research carried out the scientist.
 
-<img src="/images/113.jpg" alt="Food processing equipment" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+Based on the MIC depicted for the various microorganisms in the bar graph (Figure 1), select the ones which are the most sensitive & most resistant to curcumin, respectively?
+
+<img src="/images/112.jpg" alt="MIC bar graph" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Plate heat exchanger",
-      "b. Tubular heat exchanger",
-      "c. Shell and tube heat exchanger",
-      "d. Scraped surface heat exchanger"
+      "a. Staph. aureus & Str. agalactiae",
+      "b. Str. agalactiae & Staph. Aureus",
+      "c. Str. Agalactiae & B. cereus",
+      "d. B. cereus & E. tarda"
     ],
     correctAnswer: 0
   },
   {
-    id: 114,
-    question: "Mrs. Kaibarta is a fisherwoman from Mednipore. She wants to start her business of shrimps delivery to nearby educational institutes to meet the increasing needs of her family for which she needs an antimicrobial to enhance shelf-life of the shrimps against A. hydrophila. Based on the above results, which of the following sequence of ingredients/additives would you suggest to Mrs. Kaibarta to adopt, starting with the one which she should use in terms of cost effectiveness, health prospect and acceptability?",
+    id: 113,
+    question: `The scientist now conducts experiments to obtain extracts from turmeric powder using solvent extraction, a commonly used technique in the food industry to obtain compounds with desired properties. He used ethanol & hexane as solvents to obtain two different extracts. Based on the experimental results as shown in Figures 2 & 3 below, which of the following two extracts do you think are more potent to A. hydrophila?
+
+<img src="/images/113.jpg" alt="Extraction results" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Propionic acid → Sorbic acid → Benzoic acid",
-      "b. Benzoic acid → Propionic acid → Sorbic acid",
-      "c. Hexane extract of turmeric → Ethanol extract of turmeric → Turmeric powder",
-      "d. Turmeric powder → Ethanol extract of turmeric → Hexane extract of turmeric"
+      "a. Hexane extract",
+      "b. Ethanol extract",
+      "c. Both are equally potent",
+      "d. Can't be determined from given information"
     ],
-    correctAnswer: 3
+    correctAnswer: 1
   },
   {
-    id: 115,
+    id: 114,
     question: "Which of the following is not a hurdle for providing microbial stability to the high moisture food product?",
     options: [
       "a. Blanching",
@@ -1780,7 +1784,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 1
   },
   {
-    id: 116,
+    id: 115,
     question: "An ice-cream mix having density 1020 kg/m³ and viscosity 72×10⁻³ Pa.s is aseptically processed in a system in which 30 m long holding tube with inside diameter of 0.032 m is used. The average velocity of flow in the tube is 0.75 m/s. The ice cream temperature at the exit of holding tube is 140°C. Calculate sterilising value of the process for a microorganism which has D₀=1.8 min and z=13°C.",
     options: [
       "a. 5.3-5.5",
@@ -1791,72 +1795,75 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 0
   },
   {
-    id: 117,
-    question: `Which of the following statements are true about food allergens?
-
-1. All proteins are potential allergens.
-
-2. Processing can reduce allergenicity.
-
-3. Cross-contamination must be prevented.
-
-4. Allergen labeling is optional.`,
+    id: 116,
+    question: `Mrs. Kaibarta is a fisherwoman from Mednipore. She wants to start her business of shrimps delivery to nearby educational institutes to meet the increasing needs of her family for which she needs an antimicrobial to enhance shelf-life of the shrimps against A. hydrophila. Based on the above results, which of the following sequence of ingredients / additives would you suggest to Mrs. Kaibarta to adopt, starting with the one which she should use in terms of cost effectiveness, health prospect and acceptability?`,
     options: [
-      "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 118,
-    question: `Which statements about food additives are correct?
-
-1. Natural additives are always safe.
-
-2. Synthetic additives are always harmful.
-
-3. Additives must be declared on labels.
-
-4. Some additives have multiple functions.`,
-    options: [
-      "a. 1 and 2",
-      "b. 3 and 4",
-      "c. 2 and 3",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 119,
-    question: `Which among the under mentioned statements is/are wrong with respect to the surface-active agents?
-
-1. Polysorbate are used as surface-active ingredients for improving wettability of fat rich powders.
-
-2. Propylene glycol should be used as surface-active ingredients for improving wettability of fat rich powders.
-
-3. Lecithin is used as surface-active ingredients for improving wettability of fat rich powders.
-
-4. Lecithin is limitedly used in dairy industry for instantizing whole milk powder.`,
-    options: [
-      "a. 1 & 4",
-      "b. 2 & 3",
-      "c. 3 & 4",
-      "d. 2 & 4"
+      "a. Propionic acid → Sorbic acid → Benzoic acid",
+      "b. Benzoic acid → Propionic acid → Sorbic acid",
+      "c. Hexane extract of turmeric → Ethanol extract of turmeric → Turmeric powder",
+      "d. Turmeric powder → Ethanol extract of turmeric → Hexane extract of turmeric"
     ],
     correctAnswer: 3
   },
   {
-    id: 120,
-    question: "Which type of drying method is commonly used in the preparation of powdered eggs?",
+    id: 117,
+    question: `Which of the following statement is/are true regarding aseptic processing and packaging of foods?
+
+1. The aseptic processing involves the separate sterilization of product and container.
+
+2. The aseptic processing is also known as UHT process.
+
+3. The aseptic processing does not kill pathogens.
+
+4. The aseptic packaging technology is only applied for packaging of sterilized foods containing no viable organisms.`,
     options: [
-      "a. Freeze drying",
-      "b. Spray drying",
-      "c. Drum drying",
-      "d. Sun drying"
+      "a. 1 and 2",
+      "b. 3 and 4",
+      "c. 1 and 3",
+      "d. Only 3"
     ],
-    correctAnswer: 1
+    correctAnswer: 0
+  },
+  {
+    id: 118,
+    question: `Which of the following statement is correct related to flow characteristics of fluids in aseptic processing?
+
+1. In piston flow which is ideal and which, unfortunately is rare, the mean holding time is equal to the residence time.
+
+2. For turbulent flow, the maximum velocity is assumed to be 1.25 times the average velocity.
+
+3. In laminar or viscous flow (as in non-Newtonian fluids like sauces, soups, pulps and concentrates) the average velocity is one half of the maximum.`,
+    options: [
+      "a. 1 & 2 only",
+      "b. 1 & 3 only",
+      "c. 2 & 3 only",
+      "d. 1, 2 & 3 all"
+    ],
+    correctAnswer: 3
+  },
+  {
+    id: 119,
+    question: `The Figure provided below illustrates the seals and closures used in aseptic packaging. Select the option that accurately labels components i, ii, iii and iv.
+
+<img src="/images/119.jpg" alt="Aseptic packaging seals" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
+    options: [
+      "a. i-Transversal seal; ii- Longitudinal seal; iii-Strip side; iv- Non-strip side",
+      "b. i- Longitudinal seal; ii- Transversal seal; iii-Strip side; iv- Non-strip side",
+      "c. i- Longitudinal seal; ii- Transversal seal; iii- Non-strip side; iv- Strip side side",
+      "d. i-Transversal seal; ii- Longitudinal seal; iii- Non-strip side; iv- Strip side side"
+    ],
+    correctAnswer: 0
+  },
+  {
+    id: 120,
+    question: "An orange juice drink, aseptically packaged and kept at room temperature, contains 60 mg of vitamin C at the time of packaging. During storage, the vitamin C degrades, following a first-order reaction. With a degradation rate constant of 2.1 x 10-3 day-1, determine the remaining concentration (mg) of vitamin C after 40 days of storage.",
+    options: [
+      "a. 26.0 - 27.0",
+      "b. 31.5 - 32.0",
+      "c. 52.1 – 60.6",
+      "d. 88.0 - 89.0"
+    ],
+    correctAnswer: 2
   },
   {
     id: 121,
@@ -1867,7 +1874,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
       "c. 2000",
       "d. 3000"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
     id: 122,
@@ -1897,10 +1904,10 @@ Calculate the process time (in minutes), if z=9.5°C.`,
 
 <img src="/images/124.jpg" alt="Food processing equipment" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Spray dryer",
-      "b. Freeze dryer",
-      "c. Drum dryer",
-      "d. Fluidized bed dryer"
+      "a. (i) Feeding zone (ii) Exudation zone (iii) Compression zone (iv) Transport zone",
+      "b. (i) Feeding zone (ii) Compression zone (iii) Exudation zone (iv) Transport zone",
+      "c. (i) Feeding zone (ii) Transport zone (iii) Compression zone (iv) Exudation zone",
+      "d. (i) Transport zone (ii) Feeding zone (iii) Compression zone (iv) Exudation zone"
     ],
     correctAnswer: 2
   },
@@ -1925,28 +1932,17 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 126,
-    question: "What is the quantity of oil (kg) obtained through pressing?",
+    question: "Five hundred kilogram of soybean containing 18 % oil, 35 % protein, 27.1 % carbohydrate, 9.4 % fibre and ash, and 10.5 % moisture are: (a) crushed and pressed, reducing the oil content to 6 %; (b) then extracted with hexane to get a meal with 0.5 % oil. Set up a materials balance for the soybean constituents, assuming no loss of protein or water with the oil. What is the quantity of oil (kg) obtained through pressing?",
     options: [
-      "a. 63-64",
-      "b. 48-49",
-      "c. 52-53",
-      "d. 26-29"
+      "a. 63 - 64",
+      "b. 48 - 49",
+      "c. 52 - 53",
+      "d. 26 - 27"
     ],
     correctAnswer: 0
   },
   {
     id: 127,
-    question: "What is the quantity of oil (kg) recovered in the extraction process?",
-    options: [
-      "a. 4.1-5.2",
-      "b. 24-25",
-      "c. 48-49",
-      "d. 6.3-7.5"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 128,
     question: "The applied concentrations (%) of catalysts for chemical interesterification generally range between _____.",
     options: [
       "a. 0.05 to 1.5",
@@ -1957,7 +1953,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 0
   },
   {
-    id: 129,
+    id: 128,
     question: "Which of the following is not the characteristic feature of enzymatic interesterification?",
     options: [
       "a. Low temperature",
@@ -1968,7 +1964,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 3
   },
   {
-    id: 130,
+    id: 129,
     question: "In wet bleaching system, feed oil should have _____ % moisture in bleacher reactor.",
     options: [
       "a. 0.2-0.4",
@@ -1979,26 +1975,20 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 0
   },
   {
-    id: 131,
-    question: `Which statements about food safety management are correct?
+    id: 130,
+    question: `Five hundred kilogram of soybean containing 18 % oil, 35 % protein, 27.1 % carbohydrate, 9.4 % fibre and ash, and 10.5 % moisture are: (a) crushed and pressed, reducing the oil content to 6 %; (b) then extracted with hexane to get a meal with 0.5 % oil. Set up a materials balance for the soybean constituents, assuming no loss of protein or water with the oil.
 
-1. HACCP is voluntary for all food businesses.
-
-2. Prerequisites programs are essential.
-
-3. Documentation must be maintained.
-
-4. Training is optional for food handlers.`,
+What is the quantity of oil (kg) recovered in the extraction process?`,
     options: [
-      "a. 1 and 3",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "a. 4.1 - 5.2",
+      "b. 24 - 25",
+      "c. 48 - 49",
+      "d. 6.3 – 7.5"
     ],
     correctAnswer: 1
   },
   {
-    id: 132,
+    id: 131,
     question: `Identify the incorrect statements with respect to the effect of hydrogenation process.
 
 1. The iodine value of the oil increases.
@@ -2017,7 +2007,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 3
   },
   {
-    id: 133,
+    id: 132,
     question: `Match the step of refining (I, II, III, IV) given in column I with its respective functions (A, B, C, D) in the column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -2051,31 +2041,31 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 2
   },
   {
-    id: 134,
+    id: 133,
     question: `Analyze the following diagram and identify the process illustrated.
 
 <img src="/images/134.jpg" alt="Food processing system" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
-    options: [
-      "a. Batch processing",
-      "b. Continuous processing",
-      "c. Semi-continuous processing",
-      "d. Intermittent processing"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 135,
-    question: "In a simplified reaction model given, SL₂=K₂/K₃ denotes _____ acid selectivity.",
     options: [
       "a. Linolenic",
       "b. Oleic",
       "c. Linoleic",
       "d. Stearic"
     ],
-    correctAnswer: 2
+    correctAnswer: 3
   },
   {
-    id: 136,
+    id: 134,
+    question: "For enzymatic interesterification, a spherical reactor of 4 m height is filled with peanut oil of specific gravity 0.92. If the pressure measured at the highest point in the reactor is 60 kPa, calculate the total pressure (kPa) in the reactor",
+    options: [
+      "a. 86 – 88",
+      "b. 90 – 91",
+      "c. 96 – 97",
+      "d. 80 – 81"
+    ],
+    correctAnswer: 3
+  },
+  {
+    id: 135,
     question: "Which of the following process is responsible for imparting plasticity to oil seeds?",
     options: [
       "a. Decorticating",
@@ -2086,7 +2076,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 3
   },
   {
-    id: 137,
+    id: 136,
     question: "Calculate the effectiveness (%) of an oil expeller, which yields 37 kg oil containing 5% solid impurities from 100 kg mustard seed having an oil content of 40%.",
     options: [
       "a. 12-13",
@@ -2097,7 +2087,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 1
   },
   {
-    id: 138,
+    id: 137,
     question: "A modern rice mill of 4 tonne/day capacity is milling parboiled paddy under optimum operating conditions. The paddy has 20% rice husk and 4% bran without fine broken and germs. The bran has 20% oil. If 98% oil is extracted by solvent extraction method, calculate how much bran oil (in kg) will be available during a month of 30 days.",
     options: [
       "a. 3463",
@@ -2108,7 +2098,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 2
   },
   {
-    id: 139,
+    id: 138,
     question: "In batch refining process, agitator must be operated at low speed for removal of _____.",
     options: [
       "a. soap",
@@ -2119,7 +2109,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 2
   },
   {
-    id: 140,
+    id: 139,
     question: "_____ is provided to permit the drainage of oil in screw-press oil extractor.",
     options: [
       "a. Cake bars",
@@ -2130,7 +2120,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 1
   },
   {
-    id: 141,
+    id: 140,
     question: "In a dry bleaching system, oil is cooled up to _____ °C by using cold water.",
     options: [
       "a. 20",
@@ -2141,7 +2131,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 2
   },
   {
-    id: 142,
+    id: 141,
     question: `Match the oxidation stages given in Column I with the products in Column II with respect to food fats & oils.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -2171,7 +2161,7 @@ Calculate the process time (in minutes), if z=9.5°C.`,
     correctAnswer: 3
   },
   {
-    id: 143,
+    id: 142,
     question: `Which of the following equations correctly represents the relationship between mass transfer coefficient and diffusion coefficient?
 
 k = D/δ
@@ -2195,21 +2185,10 @@ D = diffusion coefficient
     correctAnswer: 0
   },
   {
-    id: 144,
+    id: 143,
     question: `Examine the following diagram and identify the equipment illustrated.
 
 <img src="/images/144.jpg" alt="Food processing equipment" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
-    options: [
-      "a. Plate heat exchanger",
-      "b. Shell and tube heat exchanger",
-      "c. Scraped surface heat exchanger",
-      "d. Tubular heat exchanger"
-    ],
-    correctAnswer: 3
-  },
-  {
-    id: 145,
-    question: "Which of the following compounds works as an antioxidant by breaking the chain in autooxidation?",
     options: [
       "a. Vitamin K",
       "b. Ubiquinone",
@@ -2219,7 +2198,18 @@ D = diffusion coefficient
     correctAnswer: 3
   },
   {
-    id: 146,
+    id: 144,
+    question: "Vitamins and minerals are generally microencapsulated by which of the following techniques?",
+    options: [
+      "a. Fluidized bed coating",
+      "b. Extrusion",
+      "c. Freeze drying",
+      "d. Coacervation"
+    ],
+    correctAnswer: 3
+  },
+  {
+    id: 145,
     question: `Which of the following statements is/are false for the microencapsulation process?
 
 1. Spray drying is the most widely used microencapsulation method where the particles greater than 100 microns are achieved.
@@ -2236,7 +2226,7 @@ D = diffusion coefficient
     correctAnswer: 1
   },
   {
-    id: 147,
+    id: 146,
     question: `Match the antioxidant given in Column I with its source in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -2433,7 +2423,7 @@ D = diffusion coefficient
       "c. Milling",
       "d. Self-assembling"
     ],
-    correctAnswer: 3
+    correctAnswer: 0
   },
   {
     id: 156,
@@ -2770,25 +2760,25 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
   },
   {
     id: 176,
-    question: `Study the following diagram and identify the process shown.
+    question: `Calculate overall heat transfer coefficient (W/m2K).
 
 <img src="/images/176.jpg" alt="Food preservation system" style="width: 100%; max-width: 600px; display: block; margin: 20px auto;" />`,
     options: [
-      "a. Thermal processing",
-      "b. Non-thermal processing",
-      "c. Chemical preservation",
-      "d. Physical preservation"
+      "a. 2.0 – 2.1",
+      "b. 2.5 – 2.6",
+      "c. 0.3 – 0.4",
+      "d. 1.1 – 1.2"
     ],
-    correctAnswer: 0
+    correctAnswer: 1
   },
   {
     id: 177,
-    question: "Calculate overall heat transfer coefficient (W/m² K).",
+    question: "Calculate the rate of heat transfer per unit area (W/m2).",
     options: [
-      "a. 2.0-2.1",
-      "b. 2.5-2.6",
-      "c. 0.3-0.4",
-      "d. 1.1-1.2"
+      "a. 90 – 92",
+      "b. 100 – 102",
+      "c. 111 – 113",
+      "d. 50 – 52"
     ],
     correctAnswer: 1
   },
@@ -3374,10 +3364,55 @@ x₁, x₂, x₃, ...xₙ ≥ 0`,
     id: 215,
     question: "Arrange the following iron compounds, used for food fortification purposes, in terms in decreasing order of their relative bioavailability?",
     options: [
-      "a. Ferrous gluconate 12.0 g/dl",
-      "b. <11.0 g/dl",
-      "c. >12.0 g/dl",
-      "d. 11.0-12.0 g/dl"
+      "a. Ferrous gluconate < Ferric ammonium citrate < Ferrous fumarate < Ferric orthophosphate",
+      "b. Ferric orthophosphate < Ferric ammonium citrate < Ferrous gluconate < Ferrous fumarate",
+      "c. Ferric ammonium citrate < Ferrous gluconate < Ferric orthophosphate < Ferrous fumarate",
+      "d. Ferrous fumarate < Ferrous gluconate < Ferric ammonium citrate < Ferric pyrophosphate"
+    ],
+    correctAnswer: 3
+  },
+  {
+    id: 216,
+    question: `Match the equipment given in Column I with its purpose in the RTE food paste production process in Column II.
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <tr>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column I</th>
+    <th style="width: 50%; text-align: left; padding: 8px;">Column II</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">A. Roaster</td>
+    <td style="padding: 8px;">(i). Ensures homogenous mixing of ingredients</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">B. Attrition mill</td>
+    <td style="padding: 8px;">(ii). Grinds cereals and legumes into a fine flour</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">C. Ploughshare mixer</td>
+    <td style="padding: 8px;">(iii). Provides proper sealing in packaging</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px;">D. FFS machine</td>
+    <td style="padding: 8px;">(iv). Enhances flavour and texture through Maillard reactions</td>
+  </tr>
+</table>`,
+    options: [
+      "a. A-iv, B-i, C-ii, D-iii",
+      "b. A-iv, B-ii, C-i, D-iii",
+      "c. A-ii, B-iv, C-iii, D-i",
+      "d. A-i, B-iii, C-iv, D-ii"
+    ],
+    correctAnswer: 1
+  },
+  {
+    id: 217,
+    question: "What is the hemoglobin level threshold for any type of anemia?",
+    options: [
+      "a. 11.0 - 12.0 g/dl",
+      "b. < 11.0 g/dl",
+      "c. 12.0 -13.0 g/dl",
+      "d. > 12.0 g/dl"
     ],
     correctAnswer: 1
   },
@@ -3764,20 +3799,19 @@ Reason (R): Instantization reduces particle size, making powders more difficult 
   },
   {
     id: 237,
-    question: `Which statements about pest prevention are true?
+    question: `Which among the following statements is /are false related to good practices for pest prevention
+& control?
+1. Food sources should be kept close to the walls and above the ground.
+2. Use of poisons are strictly prohibited in the raw materials and production area.
+3. Insecticides and pesticides used should be of low toxicity and should be approved by the
+regulatory agencies.
+4. Plant inspection and surveillance program must be conducted and documented.`,
 
-1. Regular inspection is essential.
-
-2. Chemical control is the only option.
-
-3. Proper sanitation prevents infestation.
-
-4. Temperature control is ineffective.`,
     options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
+      "a. Only 1",
+      "b. 1 and 2",
+      "c. 1, 2 and 3",
+      "d. 1, 2, 3 and 4"
     ],
     correctAnswer: 0
   },
@@ -3830,158 +3864,6 @@ Reason (R): Instantization reduces particle size, making powders more difficult 
     ],
     correctAnswer: 1
   },
-  {
-    id: 219,
-    question: `Which statements about noodle improvers are correct?
-
-1. They enhance dough strength
-
-2. They improve color stability
-
-3. They reduce cooking time
-
-4. They increase shelf life`,
-    options: [
-      "a. 1 and 2",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 220,
-    question: `Which statements about aflatoxins in food safety are true?
-
-1. They are produced by all molds
-
-2. They are heat stable compounds
-
-3. They can be detected by rapid tests
-
-4. They only affect grains`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 223,
-    question: `Which statements about trans fats are correct?
-
-1. They occur naturally in some foods
-
-2. They are always artificial
-
-3. They increase shelf life
-
-4. They are banned globally`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 227,
-    question: `Which statements about algal cultivation are true?
-
-1. It requires controlled light conditions
-
-2. It only works in seawater
-
-3. It needs specific nutrients
-
-4. It cannot be done indoors`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 229,
-    question: `Which statements about bioactives from algae are correct?
-
-1. They include antioxidant compounds
-
-2. They are all water-soluble
-
-3. They can be extracted efficiently
-
-4. They are always stable`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 237,
-    question: `Which statements about pest prevention are true?
-
-1. Regular inspection is essential
-
-2. Chemical control is the only option
-
-3. Proper sanitation prevents infestation
-
-4. Temperature control is ineffective`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 238,
-    question: `Which statements about GMP practices are correct?
-
-1. They ensure product quality
-
-2. They are optional guidelines
-
-3. They require documentation
-
-4. They focus only on equipment`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  },
-  {
-    id: 239,
-    question: `Which statements about surface-active agents are true?
-
-1. They reduce surface tension
-
-2. They are all synthetic compounds
-
-3. They improve emulsion stability
-
-4. They work only in water`,
-    options: [
-      "a. 1 and 3",
-      "b. 2 and 4",
-      "c. 1 and 2",
-      "d. 3 and 4"
-    ],
-    correctAnswer: 0
-  }
 ];
 
 export default questions;
