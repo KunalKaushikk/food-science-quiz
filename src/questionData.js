@@ -1243,22 +1243,18 @@ Calculate the process time (in minutes), if z=9.5°C.`,
   },
   {
     id: 79,
-    question: `Which statements about food processing are correct?
-
-1. Heat treatment always reduces nutritional value.
-
-2. Processing can improve digestibility.
-
-3. Blanching helps preserve color and texture.
-
-4. Fermentation reduces food safety.`,
+    question: `Which of the following purposes need medium dose of irradiation?
+1. Delaying ripening of fruits
+2. Decontamination of herbs and spices
+3. Disinfestation of stored cereals and pulses
+4. Reduction of spoilage microbes in fish and poultry`,
     options: [
       "a. 1 and 3",
-      "b. 2 and 3",
-      "c. 3 and 4",
-      "d. 1 and 4"
+      "b. 3 and 4",
+      "c. 2 and 4",
+      "d. 2 and 3"
     ],
-    correctAnswer: 1
+    correctAnswer: 2
   },
   {
     id: 80,
@@ -2773,17 +2769,6 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
   },
   {
     id: 177,
-    question: "Calculate the rate of heat transfer per unit area (W/m2).",
-    options: [
-      "a. 90 – 92",
-      "b. 100 – 102",
-      "c. 111 – 113",
-      "d. 50 – 52"
-    ],
-    correctAnswer: 1
-  },
-  {
-    id: 178,
     question: "Calculate the rate of heat transfer per unit area (W/m²).",
     options: [
       "a. 90-92",
@@ -2794,7 +2779,7 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
     correctAnswer: 1
   },
   {
-    id: 179,
+    id: 178,
     question: `Which of the below given statements about CA storage is/are correct?
 
 1. CA storage uses a nitrogen generator to control O₂ levels.
@@ -2813,7 +2798,7 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
     correctAnswer: 1
   },
   {
-    id: 180,
+    id: 179,
     question: "What is the main advantage of using Palliflex units in CA storage?",
     options: [
       "a. High capacity for storing produce",
@@ -2824,7 +2809,7 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
     correctAnswer: 1
   },
   {
-    id: 181,
+    id: 180,
     question: `Which statements about respiration and shelf life of produce is/are correct?
 
 1. Climacteric fruits experience a rise in respiration during ripening.
@@ -2843,7 +2828,7 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
     correctAnswer: 1
   },
   {
-    id: 182,
+    id: 181,
     question: "What is the primary factor that contributes to grain losses during storage in India?",
     options: [
       "a. Inadequate lighting",
@@ -2854,7 +2839,7 @@ Reason (R): Low O₂ levels cause aerobic respiration to increase in fresh produ
     correctAnswer: 1
   },
   {
-    id: 183,
+    id: 182,
     question: `Match the grain storage structures given in Column I with its characteristics in Column II.
 
 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
